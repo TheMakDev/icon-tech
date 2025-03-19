@@ -1,0 +1,66 @@
+.footer-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.footer-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 40px 0;
+    font-size: 14px;
+}
+
+@media (min-width: 640px) {
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr;
+    }
+    .footer-text{
+        width: 100%;
+        margin: 10%;
+    }
+}
+
+.footer-logo {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    color: #6b7280;
+    line-height: 1.6;
+    max-width: 70%;
+}
+
+.company-section,
+.contact-section {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #6b7280;
+    cursor: pointer;
+}
+
+.footer-list li:hover {
+    color: #007bff;
+}
+
+.footer-divider {
+    border-top: 1px solid #e5e7eb;
+    margin-top: 20px;
+}
+
+.footer-copyright {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
+}
