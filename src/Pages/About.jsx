@@ -1,12 +1,20 @@
 import React from 'react'
-
+import './About.css'
+import about_img from '../assets/about_img.jpg'
 const About = () => {
   return (
-    <div className="contact">
-      <div className="contact-col">
-        <h3>Send us a Message</h3>
-        <p>Feel free to reach out through contact form or find our contact information below. your feedback, questions,
-        and suggestions are important to us as we strive to provide exceptional service to our client.  </p>
+    <div className="about">
+      <div className="about-left">
+        <img src={about_img} alt="" />
+        <h3>Masters of digital audio-visual conferencing systems and home automation innovation for over 13 years.</h3>
+        <p>Icontech was born out of a need to redefine how people and businesses 
+          interact with technology. This led us to a path of creating worlds where technology works for you, how you want it.
+          We create integrated audio-visual experiences that transform the way you live learn
+          and work; to help you stay connected, be seen, be heard and remain in control of your digitally enabled environment.
+          Icontech is connected to a network of partners and talents who prioritise this goal and place you, our end users at the forefront of every adventure we take to deliver fully integrated solutions that improve your experiences.
+          Welcome to a world of endless possibilities, where we lead the charge in audio-visual excellence in Nigeria and 
+          the African landscape. We’re not only about high-end gadgets, but all about crafting immersive experiences that seamlessly 
+          blend technology into your life. </p>
       </div>
     </div>
   )

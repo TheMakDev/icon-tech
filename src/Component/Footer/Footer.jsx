@@ -29,8 +29,8 @@ const Footer = () => {
         <div>
           <p className="footer-title">GET IN TOUCH</p>
           <ul className="footer-list">
-            <li>+234 706 3085 716</li>
-            <li>jamessamuel@gmail.com</li>
+            <li>+234(0)-817-288-8496</li>
+            <li>info@icontechconsulting.com</li>
           </ul>
         </div>
 

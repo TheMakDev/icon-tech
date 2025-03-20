@@ -1,0 +1,16 @@
+.about {
+  margin: 25px auto;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-left img {
+  width: 90%;
+}
