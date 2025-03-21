@@ -17,20 +17,6 @@ const About = () => {
           Welcome to a world of endless possibilities, where we lead the charge in audio-visual excellence in Nigeria and 
           the African landscape. We’re not only about high-end gadgets, but all about crafting immersive experiences that seamlessly 
           blend technology into your life. </p>
-          {/* <div className="achievements">
-            <div className="achievement">
-              <FaAward claassName="icon" />
-              <p>Over 50 Award</p>
-            </div>
-            <div className="achievement">
-              <FaUsers claassName="icon" />
-              <p>1000+ Happy Clients </p>
-            </div>
-            <div className="achievement">
-              <FaProjectDigram claassName="icon" />
-              <p>200+ Projects Completed</p>
-            </div>
-          </div> */}
       </div>
     </div>
   )
