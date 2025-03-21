@@ -6,7 +6,9 @@ const About = () => {
     <div className="about">
       <div className="about-left">
         <img src={about_img} alt="" />
-        <h3>Masters of digital audio-visual conferencing systems and home automation innovation for over 13 years.</h3>
+        </div>
+      <div className="about-right">
+        <h1>Masters of digital audio-visual conferencing systems and home automation innovation for over 13 years.</h1>
         <p>Icontech was born out of a need to redefine how people and businesses 
           interact with technology. This led us to a path of creating worlds where technology works for you, how you want it.
           We create integrated audio-visual experiences that transform the way you live learn
@@ -15,6 +17,20 @@ const About = () => {
           Welcome to a world of endless possibilities, where we lead the charge in audio-visual excellence in Nigeria and 
           the African landscape. We’re not only about high-end gadgets, but all about crafting immersive experiences that seamlessly 
           blend technology into your life. </p>
+          {/* <div className="achievements">
+            <div className="achievement">
+              <FaAward claassName="icon" />
+              <p>Over 50 Award</p>
+            </div>
+            <div className="achievement">
+              <FaUsers claassName="icon" />
+              <p>1000+ Happy Clients </p>
+            </div>
+            <div className="achievement">
+              <FaProjectDigram claassName="icon" />
+              <p>200+ Projects Completed</p>
+            </div>
+          </div> */}
       </div>
     </div>
   )
