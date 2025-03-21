@@ -1,14 +1,19 @@
 import React from 'react'
 import './About.css'
 import about_img from '../assets/about_img.jpg'
+import { assets } from '../assets/assets'
 const About = () => {
   return (
     <div className="about">
       <div className="about-left">
-        <img src={about_img} alt="" />
+        <div className="image_container">
+        <img src={about_img} className='image_1' alt="" />
+        <img src={assets.about_image2} className='image_2' alt="" />
         </div>
+      </div>
       <div className="about-right">
         <h3>Trusted by Our Clients</h3>
+        <span className='underlined-text'></span>
         <h1>Masters of digital audio-visual conferencing systems and home automation innovation for over 13 years.</h1>
         <p>Icontech was born out of a need to redefine how people and businesses 
           interact with technology. This led us to a path of creating worlds where technology works for you, how you want it.
