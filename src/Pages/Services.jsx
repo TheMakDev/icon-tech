@@ -1,6 +1,10 @@
 import React from 'react'
+<<<<<<< HEAD
 import './Services.css'
 import service_img from '../assets/service_img.jpg'
+=======
+import './Styles/Services.css'
+>>>>>>> 0e6dd6bc0a07c1f0584d86683fed965f627d38bd
 
 const Services = () => {
   return (
