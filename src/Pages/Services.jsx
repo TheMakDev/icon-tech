@@ -1,10 +1,7 @@
 import React from 'react'
-<<<<<<< HEAD
-import './Services.css'
-import service_img from '../assets/service_img.jpg'
-=======
 import './Styles/Services.css'
->>>>>>> 0e6dd6bc0a07c1f0584d86683fed965f627d38bd
+
+import service_img from './path/to/service_img.jpg'; // Update the path to the correct image file
 
 const Services = () => {
   return (
