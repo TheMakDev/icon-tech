@@ -8,6 +8,7 @@ const About = () => {
         <img src={about_img} alt="" />
         </div>
       <div className="about-right">
+        <h3>Trusted by Our Clients</h3>
         <h1>Masters of digital audio-visual conferencing systems and home automation innovation for over 13 years.</h1>
         <p>Icontech was born out of a need to redefine how people and businesses 
           interact with technology. This led us to a path of creating worlds where technology works for you, how you want it.
