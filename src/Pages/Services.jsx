@@ -1,5 +1,6 @@
 import React from 'react'
-import '../Services.css'
+import './Services.css'
+import service_img from '../assets/service_img.jpg'
 
 const Services = () => {
   return (
@@ -9,7 +10,7 @@ const Services = () => {
       </div>
       <div className="row">
         <div className="service-box-items">
-          <div className="icon">
+          <div className="icon"> <img src={service_img} alt="" />
             <h3>STAY CONNECTED</h3>
             <p>Our automation systems ensure uninterrupted connectivity, no matter your 
               location. Stay in the loop, never missing a 
