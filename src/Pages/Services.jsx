@@ -1,7 +1,6 @@
 import React from 'react'
 import './Styles/Services.css'
 
-import service_img from './path/to/service_img.jpg'; // Update the path to the correct image file
 
 const Services = () => {
   return (
@@ -11,7 +10,7 @@ const Services = () => {
       </div>
       <div className="row">
         <div className="service-box-items">
-          <div className="icon"> <img src={service_img} alt="" />
+          <div className="icon"> <img src={} alt="" />
             <h3>STAY CONNECTED</h3>
             <p>Our automation systems ensure uninterrupted connectivity, no matter your 
               location. Stay in the loop, never missing a 
