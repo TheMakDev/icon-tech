@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
         <ul className="mobile-menu-list">
           <NavLink onClick={() => setShowMenu(false)} to="/"><p className="mobile-menu-item">Home</p></NavLink>
-          <NavLink onClick={() => setShowMenu(false)} to="/doctors"><p className="mobile-menu-item">SERVICES</p></NavLink>
+          <NavLink onClick={() => setShowMenu(false)} to="/services"><p className="mobile-menu-item">SERVICES</p></NavLink>
           <NavLink onClick={() => setShowMenu(false)} to="/about"><p className="mobile-menu-item">ABOUT</p></NavLink>
           <NavLink onClick={() => setShowMenu(false)} to="/contact"><p className="mobile-menu-item">CONTACT</p></NavLink>
         </ul>

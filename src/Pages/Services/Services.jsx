@@ -29,7 +29,7 @@ const Services = () => {
     //   </div>
     // </div>
     <>
-    <div className="hero container">
+    <div className="service-hero">
       <div className="hero-text">
         <h1>Transforming Spaces with Seamless Technology Integration</h1>
       </div>
