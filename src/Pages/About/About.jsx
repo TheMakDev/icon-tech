@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
-import about_img from '../assets/about_img.jpg'
-import { assets } from '../assets/assets'
+import about_img from '../../assets/about_img.jpg'
+import { assets } from '../../assets/assets'
 const About = () => {
   return (
     <div className="about">
