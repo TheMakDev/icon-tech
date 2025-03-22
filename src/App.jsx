@@ -4,9 +4,9 @@ import Navbar from './Component/Navbar';
 import Footer from './Component/Footer/Footer';
 
 
-const Home = lazy(() => import('./Pages/Home'));
-const Services = lazy(() => import('./Pages/Services'));  
-const About = lazy(() => import('./Pages/About'));
+const Home = lazy(() => import('./Pages/Home/Home'));
+const Services = lazy(() => import('./Pages/Services/Services'));  
+const About = lazy(() => import('./Pages/About/About'));
 const Contact = lazy(() => import('./Pages/Contact'));
 
 const App = () => {
