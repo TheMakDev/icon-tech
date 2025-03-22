@@ -20,7 +20,9 @@
   z-index: 1000;
 }
 
-
+.navbar a{
+  text-decoration: none;
+}
 .navbar-logo {
   width: 160px;
   cursor: pointer;
