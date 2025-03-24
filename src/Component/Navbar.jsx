@@ -15,6 +15,7 @@ const Navbar = () => {
         <NavLink to="/"><li>HOME</li></NavLink>
         <NavLink to="/services"><li>SERVICES</li></NavLink>
         <NavLink to="/about"><li>ABOUT</li></NavLink>
+        <NavLink to="/blog"><li>BLOG</li></NavLink>
         <NavLink to="/contact"><li>CONTACT</li></NavLink>
       </ul>
 
@@ -31,9 +32,10 @@ const Navbar = () => {
           <img className="mobile-menu-icon" onClick={() => setShowMenu(false)} src={assets.cross_icon} alt="Close" />
         </div>
         <ul className="mobile-menu-list">
-          <NavLink onClick={() => setShowMenu(false)} to="/"><p className="mobile-menu-item">Home</p></NavLink>
+          <NavLink onClick={() => setShowMenu(false)} to="/"><p className="mobile-menu-item">HOME</p></NavLink>
           <NavLink onClick={() => setShowMenu(false)} to="/services"><p className="mobile-menu-item">SERVICES</p></NavLink>
           <NavLink onClick={() => setShowMenu(false)} to="/about"><p className="mobile-menu-item">ABOUT</p></NavLink>
+          <NavLink onClick={() => setShowMenu(false)} to="/blog"><p className="mobile-menu-item">BLOG</p></NavLink>
           <NavLink onClick={() => setShowMenu(false)} to="/contact"><p className="mobile-menu-item">CONTACT</p></NavLink>
         </ul>
       </div>

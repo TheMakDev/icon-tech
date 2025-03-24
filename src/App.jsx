@@ -7,7 +7,8 @@ import Footer from './Component/Footer/Footer';
 const Home = lazy(() => import('./Pages/Home/Home'));
 const Services = lazy(() => import('./Pages/Services/Services'));  
 const About = lazy(() => import('./Pages/About/About'));
-const Contact = lazy(() => import('./Pages/Contact'));
+const Blog = lazy(() => import('./Pages/Blog/Blog'));
+const Contact = lazy(() => import('./Pages/Contact/Contact'));
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/services' element={<Services />} /> 
           <Route path='/about' element={<About />} />
+          <Route path='/Blog' element={<Blog />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </Suspense>
