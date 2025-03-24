@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.css'
+import './about.css'
 import about_img from '../../assets/about_img.jpg'
 import { assets } from '../../assets/assets'
 import about_img3 from '../../assets/about_img3.png'
