@@ -3,7 +3,7 @@ import './About.css'
 import about_img from '../../assets/about_img.jpg'
 import { assets } from '../../assets/assets'
 import img_1 from '../../assets/img_1.png'
-import img_2 from '../../assets/img_2.png'
+import img_2 from '../../assets/img_2.jpeg'
 import img_3 from '../../assets/img_3.png'
 
 

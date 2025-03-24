@@ -21,17 +21,19 @@
 
 .top_img {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   margin-bottom: 20px;
+  justify-content: space-between;
 }
 
 .top_img img {
-  max-width: 100%;
+  max-width: 30%;
   height: auto;
   margin-bottom: 10px;
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
 }
 
 .top_img img:hover {
