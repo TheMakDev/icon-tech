@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import about_img from '../../assets/about_img.jpg'
 import { assets } from '../../assets/assets'
-import about_img3 from '../../assets/about_img3.png'
+// import about_img3 from '../../assets/about_img3.png'
 const About = () => {
   return (
     <div className="about">
@@ -10,7 +10,7 @@ const About = () => {
         <div className="image_container">
         <img src={about_img} className='image_1' alt="" />
         <img src={assets.about_image2} className='image_2' alt="" />
-        <img src={about_img3} className='image_3' alt="" />;
+        {/* <img src={about_img3} className='image_3' alt="" />; */}
         </div>
       </div>
       <div className="about-right">
