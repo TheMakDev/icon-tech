@@ -2,7 +2,9 @@ import React from 'react'
 import './About.css'
 import about_img from '../../assets/about_img.jpg'
 import { assets } from '../../assets/assets'
-import about_img3 from '../../assets/about_img3.png'
+import img_1 from '../../assets/img_1.png'
+import img_2 from '../../assets/img_2.png'
+import img_3 from '../../assets/img_3.png'
 const About = () => {
   return (
     <div className="about">
@@ -10,10 +12,14 @@ const About = () => {
         <div className="image_container">
         <img src={about_img} className='image_1' alt="" />
         <img src={assets.about_image2} className='image_2' alt="" />
-        <img src={about_img3} className='image_3' alt="" />;
         </div>
       </div>
       <div className="about-right">
+        <div className="top_img">
+        <img src={img_1} className='img_1' alt="" />
+        <img src={img_2} className='img_2' alt="" />
+        <img src={img_3} className='img_3' alt="" />
+        </div>
         <h3>Trusted by Our Clients</h3>
         <span className='underlined-text'></span>
         <h1>Masters of digital audio-visual conferencing systems and home automation innovation for over 13 years.</h1>
