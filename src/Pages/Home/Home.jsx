@@ -15,7 +15,6 @@ const Home = () => {
       <div className="video-container">
             <video width="100%" controls>
               <source src="/src/Video/Icontech.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
             </video>
           </div>
       <button className="btn">
