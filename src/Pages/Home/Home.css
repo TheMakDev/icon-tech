@@ -33,6 +33,7 @@
 
 .video-contatiner {
   margin: 20px 0;
+  max-width: 50%;
 }
 .btn {
   background: #fff;
