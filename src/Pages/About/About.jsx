@@ -34,6 +34,17 @@ const About = () => {
           the African landscape. We’re not only about high-end gadgets, but all about crafting immersive experiences that seamlessly 
           blend technology into your life. </p>
       </div>
+
+      {/* <div className="achievements">
+          <div className="achievement">
+            <FaProjectDiagram className="icon" />
+            <p>200+ Projects Completed</p>
+          </div>
+          <div className="achievement">
+            <FaUsers className="icon" />
+            <p>1000+ Happy Clients</p>
+          </div>
+        </div> */}
     </div>
   )
 }
