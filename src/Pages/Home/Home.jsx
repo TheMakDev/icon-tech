@@ -1,9 +1,12 @@
 import React from 'react'
 import './Home.css'
+import About from '../About/About'
+import Services from '../../Component/Service/Service'
 
 const Home = () => {
   return (
-    <div className="hero container">
+    <>
+      <div className="hero container">
       <div className="hero-text">
       <h1>Transforming Spaces with Seamless Technology Integration</h1>
       <p>
@@ -14,6 +17,10 @@ const Home = () => {
       </button>
     </div>
     </div>
+    <About />
+    <Services />
+    </>
+    
   )
 }
 
