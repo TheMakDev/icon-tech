@@ -2,6 +2,7 @@ import React from 'react'
 import "./Service.css"
 import { services } from "../../data"
 import ServiceCard from './ServiceCard/ServiceCard'
+import About_second from '../About_second/About'
 
 
 const Services = () => {
@@ -24,6 +25,7 @@ const Services = () => {
           }
         </div>
       </div>
+        <About_second />
     </section>
   )
 }

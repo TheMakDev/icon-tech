@@ -1,0 +1,106 @@
+.workshop_section{
+  display:flex;
+  margin-top:5%;
+  width:100%;
+  height: fit-content;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+.workshop_section_container{
+  display: flex;
+  width:100%;
+  height: fit-content;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+.workshop_image img{
+  height: 300px;
+  width: 330px;
+}
+.workshop_image{
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width:50%;
+  margin: 0 2%;
+}
+.workshop_image .image-1{
+  position: absolute;
+  top:20%;
+  
+}
+.workshop_image .image-2{
+  position: absolute;
+  left: 40%;
+  
+}
+.workshop_image .inner-content{
+  position: absolute;
+  z-index: 10;
+  left: 35%;
+  bottom: 0%;
+  background: #ffffff;
+  padding:50px;   
+  box-shadow: 2px 2px 2px 2px rgba(216, 216, 216, 0.4);
+  font-family: var(--fontFamily) ;
+  
+}
+.workshop_image .inner-content h5{
+      padding:10px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #6b6b6b;
+}
+.workshop_image .inner-content p{
+      padding:10px;
+      font-size: 20px;
+      font-weight: 800;
+}
+.workshop_section_right{
+  width:40%;
+}
+
+
+#custom_header .main_custom_header, .our-service > .container >  h2{
+  color: var(--maincolorRed);
+  font-family: var(--fontFamily) ;
+  font-size: 15px;
+  font-weight: 900;
+}
+.workshop_header{
+  margin: 5% 0;
+  color: blue;
+}
+.workshop_header p, .our-service-header > h2{
+  font-family: var(--fontFamily);
+  font-weight: 800;
+  font-size: 40px;
+}
+.workshop_content p{
+  font-size: 14px;
+  font-family: var(--fontFamily);
+  color: var(--mainGray);
+  line-height: 1.6rem;
+}
+.workshop_content .first_text {
+  margin:8% 0;
+}
+
+.workshop_list_container{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 10px;
+  margin: 5% 0;
+  list-style-type: none;
+}
+.workshop_list_container li{
+  font-weight: 800;
+  padding:10px;
+  font-size: 18px;
+  font-family: var(--fontFamily);
+  color: blue;
+}
