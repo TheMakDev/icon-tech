@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import video from "../../assets/my-video.mp4"
+import { assets } from '../../assets/assets'
 import "./Videoplayer.css"
 
 const Videoplayer = ({playState, setPlayState}) => {
@@ -14,7 +14,7 @@ const Videoplayer = ({playState, setPlayState}) => {
   return (
     <div className={`video-player ${playState? '' : 'hide'}`} ref={player} onClick={closePlayer}>
     
-    <video src={video} autoPlay muted controls></video>
+    <video src={assets.video} autoPlay muted controls></video>
 
     </div>
   )

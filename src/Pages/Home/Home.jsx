@@ -13,9 +13,7 @@ const Home = () => {
       Our mission is to reshape how people perceive and interact with their environment by creating a world where audio-visual solutions are seamlessly integrated into people’s lives to change how they live, learn and work.
       </p>
       <div className="video-container">
-            <video width="100%" controls>
-              <source src="/src/Video/Icontech.mp4" type="video/mp4" />
-            </video>
+           
           </div>
       <button className="btn">
         Explore more 
