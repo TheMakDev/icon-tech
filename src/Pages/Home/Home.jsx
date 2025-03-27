@@ -12,9 +12,6 @@ const Home = () => {
       <p>
       Our mission is to reshape how people perceive and interact with their environment by creating a world where audio-visual solutions are seamlessly integrated into people’s lives to change how they live, learn and work.
       </p>
-      <div className="video-container">
-           
-          </div>
       <button className="btn">
         Explore more 
       </button>
