@@ -15,9 +15,7 @@ const About = ({setPlayState}) => {
       <div className="about-right">
         <h3>About Our Company</h3>
         <h2>Lighting the Way for Tomorrow</h2>
-        <p>At JAMES ABRAHAM SOLAR ENERGY, we provide innovative solar energy solutions for homes, businesses, and communities. Our goal is to make clean, renewable energy accessible and cost-effective for everyone.</p>
-        <p>From residential rooftops to large-scale projects, we design reliable and efficient solar systems tailored to diverse energy needs. Our solutions ensure maximum performance, durability, and seamless integration.</p>
-        <p>We are committed to sustainability and customer satisfaction, helping individuals and businesses reduce costs and embrace a greener future. Together, we can power a cleaner, more sustainable world.</p>
+        <p>Icontech was born out of a need to redefine the way people and businesses interact with technology. This led us to a path of creating worldWe create integrated audio-visual experiences that transform the way you live learn and work; to help you stay connected, be seen, be heard and remain in control of your digitally enabled environment.</p>
       </div>
     </div>
   );
