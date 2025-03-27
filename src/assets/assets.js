@@ -9,7 +9,7 @@ import about_image from "./about_image1.jpeg";
 // import cross_icon from "./cross_icon.png";
 // import about_image2 from "./about_image 2.jpeg";
 // import about_image from "./about_image1.jpeg";
-import video from "./bg.mp4";
+// import video from "./bg.mp4";
 
 export const assets = {
   logo,
@@ -17,5 +17,5 @@ export const assets = {
   cross_icon,
   about_image2,
   about_image,
-  video,
+  //   video,
 };
