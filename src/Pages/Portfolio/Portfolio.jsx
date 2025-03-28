@@ -10,8 +10,7 @@ const Portfolio = () => {
           CAPTURE YOUR MEMORIES <br /> <span>PROFESSIONALLY</span>
         </h1>
         <p>
-          We are a photography agency that provides services for weddings,
-          birthdays, graduations, and any special moment of your life.
+        Our mission is to reshape how people perceive and interact with their environment by creating a world where audio-visual solutions are seamlessly integrated into people’s lives to change how they live, learn and work.  
         </p>
         <div className="hero-buttons">
           <button className="btn primary">Let’s work</button>
