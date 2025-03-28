@@ -104,3 +104,19 @@
   font-family: var(--fontFamily);
   color: blue;
 }
+
+
+@media (max-width: 800px) {
+  .workshop_section{
+    height:100%;
+}
+.workshop_section .workshop_image{
+    display: none;
+}
+.workshop_section_container .workshop_image{
+    display: none;
+}
+.workshop_section_right{
+    width:90%;
+}
+}

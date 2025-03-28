@@ -46,7 +46,9 @@
   margin-bottom: 5px;
 } */
 
-
+.services-page{
+  background: #fff;
+}
 .service-hero {
   width: 100%;
   min-height: 20vh;
