@@ -28,25 +28,29 @@
   
   .hero-buttons {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 15px;
   }
   
-  .btn {
+  .hero-container .btn {
     padding: 12px 24px;
-    border: none;
     font-size: 1rem;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 25px;
     transition: 0.3s;
   }
   
   .primary {
     background: #ff6b6b;
     color: #fff;
+    border: none;
   }
   
   .primary:hover {
-    background: #e35b5b;
+    background: transparent;
+    border: 2px solid #ff6b6b;
+    color: #ff6b6b;
   }
   
   .secondary {
@@ -59,6 +63,7 @@
     background: #ff6b6b;
     color: #fff;
   }
+  
   
   .hero-images {
     display: flex;
